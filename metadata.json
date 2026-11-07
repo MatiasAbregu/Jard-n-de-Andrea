@@ -1,0 +1,6 @@
+{
+  "name": "Jardín de Andrea · 6 Flores & 6 Meses",
+  "description": "Un campo de flores interactivo para Andrea, recorriendo las estaciones de nuestros 6 meses juntos, con música, flores y una carta de amor especial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
