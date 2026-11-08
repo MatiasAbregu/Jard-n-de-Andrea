@@ -1,3 +1,10 @@
+import rosesImg from '../assets/images/flower_roses_summer_1794093012721.jpg';
+import peoniesImg from '../assets/images/flower_peonies_summer_1794093025667.jpg';
+import carnationsImg from '../assets/images/flower_carnations_autumn_1794093025527.jpg';
+import irisImg from '../assets/images/flower_iris_winter_1794093025877.jpg';
+import tulipsImg from '../assets/images/flower_tulips_spring_1794093027502.jpg';
+import lilyValleyImg from '../assets/images/flower_lily_valley_1794093026901.jpg';
+
 export interface FlowerData {
   id: string;
   order: number;
@@ -50,7 +57,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '☀️',
     seasonDescription: 'Florecen en el calor radiante del verano, cuando el sol despierta su aroma más intenso.',
     flowerMeaning: 'La rosa es el símbolo universal de la devoción incondicional, la pasión sincera y la promesa viva de quien entrega el alma sin reservas. Sus pétalos aterciopelados abrazan con fuerza cada espina superada.',
-    image: '/src/assets/images/flower_roses_summer_1794093012721.jpg',
+    image: rosesImg,
     palette: {
       primary: '#e11d48',
       secondary: '#fb7185',
@@ -87,7 +94,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '🌸',
     seasonDescription: 'Abren sus capas exuberantes bajo la luz tibia del solsticio, colmando el aire de dulzura.',
     flowerMeaning: 'La peonía encarna la prosperidad del corazón, la timidez dulce que florece en confianza mutua y la nobleza de un afecto que se vuelve más pleno con cada nuevo día compartido.',
-    image: '/src/assets/images/flower_peonies_summer_1794093025667.jpg',
+    image: peoniesImg,
     palette: {
       primary: '#ec4899',
       secondary: '#f472b6',
@@ -124,7 +131,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '🍂',
     seasonDescription: 'Florecen extendiéndose con valentía hasta el otoño, desafiando vientos y hojas caídas sin perder su fragancia.',
     flowerMeaning: 'El clavel simboliza la devoción inquebrantable, la admiración profunda y la lealtad que se sostiene firme aun cuando el entorno se torna frío y turbulento.',
-    image: '/src/assets/images/flower_carnations_autumn_1794093025527.jpg',
+    image: carnationsImg,
     palette: {
       primary: '#d97706',
       secondary: '#f59e0b',
@@ -141,7 +148,7 @@ export const FLOWERS: FlowerData[] = [
       tagline: '«Lucharé por vos ante cualquier obstáculo...»',
       youtubeId: 'HLBYylAvz8Y',
       youtubeUrl: 'https://www.youtube.com/watch?v=HLBYylAvz8Y',
-      connectionNote: 'Esa caballerosidad y promesa de proteger siempre lo nuestro contra todo lo que se interponga.',
+      connectionNote: 'Ese subliminal deseo de proteger siempre lo nuestro contra todo lo que se interponga.',
     },
     diaryLetter: {
       chapter: 'Diario Mes 3 · La Flor ante el Vendaval',
@@ -161,7 +168,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '❄️',
     seasonDescription: 'Una flor extraordinaria que desafía la escarcha y el frío invernal, trayendo un destello de luz cuando todo reposa en silencio.',
     flowerMeaning: 'El iris de invierno es el emblema de la esperanza invulnerable, la elocuencia de las almas que se entienden sin palabras y la fe inamovible de que después de la noche más fría siempre sale el sol.',
-    image: '/src/assets/images/flower_iris_winter_1794093025877.jpg',
+    image: irisImg,
     palette: {
       primary: '#7c3aed',
       secondary: '#a855f7',
@@ -199,7 +206,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '🌷',
     seasonDescription: 'Emerge con los primeros rayos de la primavera, inundando el campo de color, alegría y juventud renovada.',
     flowerMeaning: 'El tulipán es el emblema del amor puro, apasionado y sincero. Representa el latido desbordado del pecho y el lazo sagrado e invisible que nunca se corta ni se desgasta con el tiempo.',
-    image: '/src/assets/images/flower_tulips_spring_1794093027502.jpg',
+    image: tulipsImg,
     palette: {
       primary: '#f43f5e',
       secondary: '#fb7185',
@@ -236,7 +243,7 @@ export const FLOWERS: FlowerData[] = [
     seasonIcon: '✨',
     seasonDescription: 'Florece en mayo con delicadas campanas blancas y un perfume celestial, llamada tradicionalmente el retorno definitivo de la felicidad.',
     flowerMeaning: 'El lirio del valle simboliza la nobleza del alma, la pureza intacta de los sentimientos más profundos y la gracia de quien ilumina la vida de quien la rodea. Es la "Noble Flor" que florece con dignidad inquebrantable.',
-    image: '/src/assets/images/flower_lily_valley_1794093026901.jpg',
+    image: lilyValleyImg,
     palette: {
       primary: '#10b981',
       secondary: '#34d399',

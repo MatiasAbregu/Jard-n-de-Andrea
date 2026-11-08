@@ -1,4 +1,5 @@
 import { X, Sparkles, Heart } from 'lucide-react';
+import stardewWeddingImg from '../assets/images/stardew_wedding.png';
 
 interface Props {
   isOpen: boolean;
@@ -72,7 +73,7 @@ export function StardewModal({ isOpen, onClose }: Props) {
         <div className="my-4 p-3 rounded-2xl bg-amber-950/40 border border-amber-500/30 shadow-inner">
           <div className="relative mx-auto max-w-[200px] rounded-xl overflow-hidden border-2 border-amber-400/60 shadow-xl bg-stone-950">
             <img
-              src="/assets/aistudio/Captura_de_pantalla_2026-10-26_174205_3aecce40.png"
+              src={stardewWeddingImg}
               alt="Nuestra boda en Stardew Valley"
               referrerPolicy="no-referrer"
               className="w-full h-auto object-contain [image-rendering:pixelated]"
